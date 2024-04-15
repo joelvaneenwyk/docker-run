@@ -12,7 +12,7 @@ export const getMockContainer = async (port: number) => {
 };
 
 export const getMockContainerIds = async (reqNumberOfContainers: number) => {
-  const mockContainers = [];
+  const mockContainers: Promise<string>[] = [];
 
   for (let index = 0; index < reqNumberOfContainers; index++) {
     mockContainers.push(getMockContainer(8000 + index + 1));

@@ -19,7 +19,7 @@ export const disposableShowCommand = commands.registerCommand('docker-run.show-c
 });
 
 async function getAvailableCommandList(commands: DockerRunCommandList) {
-  const availableCommandList = [];
+  const availableCommandList: DockerRunCommandList = [];
   for (let index = 0; index < commands.length; index++) {
     const command = commands[index];
     let isAllowed = false;

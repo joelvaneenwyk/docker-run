@@ -55,9 +55,9 @@ async function mapContainersWithLabel(
   isRunning?: boolean,
   labelFormat?: Array<keyof ContainerLabelInfo>
 ): Promise<ContainerList> {
-  const containersList = [];
+  const containersList: ContainerListItem[] = [];
   for (let i = 0; i < containers.length; i++) {
-    const containerId = containers[i];
+    const containerId: string = containers[i];
     const isExists = await isContainerExists(containerId);
     if (isExists) {
       const container = ext.dockerode.getContainer(containerId);
