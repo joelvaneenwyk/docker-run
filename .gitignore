@@ -3,3 +3,6 @@ node_modules
 .vscode-test/
 *.vsix
 dist
+package-lock.json
+bun.lockb
+pnpm-lock.yaml
