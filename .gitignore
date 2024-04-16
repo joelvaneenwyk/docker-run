@@ -10,3 +10,7 @@ yarn.lock
 .pnp.cjs
 .pnp.loader.mjs
 *docker-run-*.tgz
+
+# moon
+.moon/cache
+.moon/docker

@@ -3,8 +3,6 @@
   // for the documentation about the extensions.json format
   "recommendations": [
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "ahmadawais.emoji-log-vscode",
-    "henrynguyen5-vsc.vsc-nvm"
+    "esbenp.prettier-vscode"
   ]
 }

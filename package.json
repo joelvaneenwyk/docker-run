@@ -9,13 +9,13 @@
     "name": "Georgekutty Antony",
     "email": "mail@georgekuttyantony.com"
   },
-  "packageManager": "pnpm@9.0.1+sha256.46d50ee2afecb42b185ebbd662dc7bdd52ef5be56bf035bb615cab81a75345df",
+  "packageManager": "pnpm@9.0.1",
   "publisher": "mycoshiro",
   "engines": {
-    "vscode": "^1.45.0",
-    "node": ">=18.0.0",
-    "pnpm": ">=9.0.1",
+    "node": "~20",
     "npm": "XX",
+    "pnpm": ">=9.0.1",
+    "vscode": "^1.45.0",
     "yarn": "XX"
   },
   "categories": [
