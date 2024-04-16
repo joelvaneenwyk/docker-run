@@ -20,7 +20,7 @@ const config = {
     // These warnings are issues because 'cpu-features' is a native module
     // that does not work on Windows so we override it in 'package.json' to
     // point at '@cweijan/ssh2' instead.
-    /Can't resolve '.\/crypto\/build\/\Release\/sshcrypto.node/,
+    /Can't resolve '.\/crypto\/build\/Release\/sshcrypto.node/,
     /Can't resolve 'cpu-features'/
   ],
   devtool: 'source-map',

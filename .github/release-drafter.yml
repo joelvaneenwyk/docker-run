@@ -1,18 +1,17 @@
-name-template: "v$RESOLVED_VERSION"
-tag-template: "v$RESOLVED_VERSION"
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
 template: |
   $CHANGES
 categories:
-  - title: "📦 New Features"
+  - title: '📦 New Features'
     labels:
-      - "enhancement"
-      - "improvement"
-  - title: "🐛 Bug Fixes"
+      - 'enhancement'
+      - 'improvement'
+  - title: '🐛 Bug Fixes'
     labels:
-      - "bug"
-  - title: "✨ Dependency Updates"
+      - 'bug'
+  - title: '✨ Dependency Updates'
     labels:
-      - "dependencies"
+      - 'dependencies'
 exclude-labels:
-  - "skip change log"
-
+  - 'skip change log'

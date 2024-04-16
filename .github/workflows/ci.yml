@@ -3,9 +3,9 @@ on:
   push:
     branches: [main, develop]
     paths-ignore:
-      - ".github/workflows/release-drafter.yml"
-      - ".github/release-drafter.yml"
-      - "README.md"
+      - '.github/workflows/release-drafter.yml'
+      - '.github/release-drafter.yml'
+      - 'README.md'
   release:
     types:
       - created
