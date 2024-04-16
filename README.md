@@ -1,10 +1,12 @@
 # VSCode Extension: Docker Run
 
+> This is a fork of the excellent [https://github.com/george3447/docker-run](https://github.com/george3447/docker-run) created by [`george3447`](https://github.com/george3447).
+
 <!-- markdownlint-disable MD033 -->
 <p align="center">
   <img
     width="160"
-    src="https://raw.githubusercontent.com/george3447/docker-run/master/images/icon.png"
+    src="https://raw.githubusercontent.com/joelvaneenwyk/docker-run/develop/images/icon.png"
     alt="Docker Run - Logo"
   />
 </p>
@@ -48,8 +50,8 @@ To install the extension, open the extensions view, search for `docker run` to f
 
 ## Changelog
 
-- [https://github.com/george3447/docker-run/blob/master/CHANGELOG.md](https://github.com/george3447/docker-run/blob/master/CHANGELOG.md)
+- [https://github.com/joelvaneenwyk/docker-run/blob/develop/CHANGELOG.md](https://github.com/joelvaneenwyk/docker-run/blob/develop/CHANGELOG.md)
 
 ## License
 
-- [https://github.com/george3447/docker-run/blob/master/LICENSE](https://github.com/george3447/docker-run/blob/master/LICENSE)
+- [https://github.com/joelvaneenwyk/docker-run/blob/develop/LICENSE](https://github.com/joelvaneenwyk/docker-run/blob/develop/LICENSE)
