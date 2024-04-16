@@ -2,7 +2,7 @@ import { ConfigurationChangeEvent, ConfigurationTarget, workspace } from 'vscode
 
 import { CONFIGURATION } from './constants';
 
-type ConfigurationValue = typeof CONFIGURATION[keyof typeof CONFIGURATION];
+type ConfigurationValue = (typeof CONFIGURATION)[keyof typeof CONFIGURATION];
 
 export function isSettingsDisabled(configurationKey: ConfigurationValue): boolean {
   const configInfo = getConfigurationDetails(configurationKey);
