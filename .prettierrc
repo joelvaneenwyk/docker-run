@@ -26,8 +26,10 @@
     {
       "files": ["*.yaml", "*.yml"],
       "options": {
+        "parser": "yaml",
         "tabWidth": 2,
         "endOfLine": "auto",
+        "singleQuote": true,
         "bracketSpacing": false,
         "bracketSameLine": true,
         "semi": true

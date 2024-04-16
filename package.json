@@ -12,24 +12,14 @@
   "packageManager": "pnpm@9.0.1",
   "publisher": "mycoshiro",
   "engines": {
-    "node": "~20",
+    "node": ">=20",
     "npm": "XX",
     "pnpm": ">=9.0.1",
     "vscode": "^1.45.0",
     "yarn": "XX"
   },
-  "categories": [
-    "Programming Languages",
-    "Linters",
-    "Azure"
-  ],
-  "keywords": [
-    "docker",
-    "run",
-    "container",
-    "auto",
-    "start"
-  ],
+  "categories": ["Programming Languages", "Linters", "Azure"],
+  "keywords": ["docker", "run", "container", "auto", "start"],
   "repository": {
     "type": "git",
     "url": "https://github.com/joelvaneenwyk/docker-run"
@@ -62,7 +52,7 @@
     "vscode:prepublish": "webpack --mode=production",
     "webpack": "webpack --mode=development",
     "webpack-dev": "webpack --mode=development --watch",
-    "format": "prettier \"**\" --ignore-unknown --write --config .prettierrc --ignore-path .gitignore --ignore-path .vscodeignore"
+    "format": "prettier \"**\" --ignore-unknown --write --config .prettierrc --ignore-path .gitignore --ignore-path .prettierignore"
   },
   "dependencies": {
     "@types/chai": "~4.3.14",

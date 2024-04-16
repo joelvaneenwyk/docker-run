@@ -1,5 +1,23 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+  "[yaml]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "full",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
   "[json][jsonc][json5][markdown]": {
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
@@ -9,13 +27,8 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true
   },
-  "cSpell.words": [
-    "cweijan",
-    "dockerrc",
-    "Georgekutty",
-    "mycoshiro",
-    "xvfb"
-  ],
+  "prettier.configPath": ".prettierrc",
+  "cSpell.words": ["cweijan", "dockerrc", "Georgekutty", "mycoshiro", "xvfb"],
   "DockerRun.DisableAutoGenerateConfig": true,
   "editor.codeActionsOnSave": {
     "editor.action.formatDocument": "explicit",

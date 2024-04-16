@@ -3,7 +3,6 @@
 #
 
 node_modules/
-.vscode/
 .vscode-test/
 out/
 src/
@@ -11,7 +10,6 @@ src/
 tsconfig.json
 .eslintrc.json
 .gitignore
-vsc-extension-quickstart.md
 webpack.config.js
 .github
 .eslintignore
