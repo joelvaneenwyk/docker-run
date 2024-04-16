@@ -4,12 +4,13 @@
   "description": "Start your docker containers automatically for each workspace",
   "version": "1.1.0",
   "icon": "images/icon.png",
+  "type": "commonjs",
   "author": {
     "name": "Georgekutty Antony",
     "email": "mail@georgekuttyantony.com"
   },
   "packageManager": "pnpm@9.0.0-rc.2+sha256.56c6fdb47aaccbd84f172f5dd032820ad8ba66aeb4727832fb3158f8537f11cd",
-  "publisher": "george3447",
+  "publisher": "joelvaneenwyk",
   "engines": {
     "vscode": "^1.45.0"
   },
@@ -27,11 +28,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/george3447/docker-run"
+    "url": "https://github.com/joelvaneenwyk/docker-run"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/george3447/docker-run/issues"
+    "url": "https://github.com/joelvaneenwyk/docker-run/issues"
   },
   "activationEvents": [
     "onStartupFinished",
@@ -70,7 +71,7 @@
     "@typescript-eslint/parser": "~7.7.0",
     "@vscode/test-electron": "^2.3.9",
     "@vscode/vsce": "~2.25.0",
-    "chai": "~5.1.0",
+    "chai": "^4.4.1",
     "dockerode": "~4.0.2",
     "eslint-config-prettier": "~9.1.0",
     "eslint-plugin-prettier": "~5.1.3",
