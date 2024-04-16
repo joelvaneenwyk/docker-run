@@ -44,7 +44,7 @@
     "onCommand:docker-run.start",
     "onCommand:docker-run.stop"
   ],
-  "main": "./out/extension",
+  "main": "./dist/extension",
   "scripts": {
     "deploy": "vsce publish",
     "build": "webpack --mode=production",

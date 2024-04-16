@@ -12,8 +12,8 @@ on:
 
 env:
   NODE_VERSION: 20.x
-  NODE_CACHE_PATH: ~/.npm
-  NODE_HASH_FILES: '**/package-lock.json'
+  NODE_CACHE_PATH: '~/.cache/pnpm/'
+  NODE_HASH_FILES: '**/pnpm-lock.yaml'
 
 jobs:
   lint:
