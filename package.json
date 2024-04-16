@@ -171,5 +171,8 @@
     "overrides": {
       "ssh2": "npm:@cweijan/ssh2"
     }
+  },
+  "resolutions": {
+    "ssh2": "npm:@cweijan/ssh2"
   }
 }

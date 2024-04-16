@@ -1,6 +1,5 @@
-//@ts-check
-
 'use strict';
+
 // eslint-disable-next-line
 const path = require('path');
 
@@ -17,6 +16,13 @@ const config = {
     libraryTarget: 'commonjs2',
     devtoolModuleFilenameTemplate: '../[resource-path]'
   },
+  ignoreWarnings: [
+    // These warnings are issues because 'cpu-features' is a native module
+    // that does not work on Windows so we override it in 'package.json' to
+    // point at '@cweijan/ssh2' instead.
+    /Can't resolve '.\/crypto\/build\/\Release\/sshcrypto.node/,
+    /Can't resolve 'cpu-features'/
+  ],
   devtool: 'source-map',
   externals: {
     vscode: 'commonjs vscode' // the vscode-module is created on-the-fly and must be excluded. Add other modules that cannot be webpack'ed, 📖 -> https://webpack.js.org/configuration/externals/
