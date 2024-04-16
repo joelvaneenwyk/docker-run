@@ -8,7 +8,7 @@
     "name": "Georgekutty Antony",
     "email": "mail@georgekuttyantony.com"
   },
-  "packageManager": "pnpm@9.0.0-rc.2+sha256.56c6fdb47aaccbd84f172f5dd032820ad8ba66aeb4727832fb3158f8537f11cd",
+  "packageManager": "yarn@4.1.1+sha256.f3cc0eda8e5560e529c7147565b30faa43b4e472d90e8634d7134a37c7f59781",
   "publisher": "george3447",
   "engines": {
     "vscode": "^1.45.0"
@@ -158,19 +158,24 @@
     "npe": "~1.2.0",
     "prettier": "~3.2.5",
     "sinon": "~17.0.1",
-    "ssh2": "^1.15.0",
     "ts-loader": "~9.5.1",
     "typescript": "~5.4.5",
     "vscode-ext-codicons": "~1.6.0",
     "webpack": "~5.91.0",
     "webpack-cli": "~5.1.4"
   },
-  "peerDependencies": {
-    "eslint": "^8.56.0"
-  },
   "overrides": {
     "dockerode": {
-      "ssh2": "@cweijan/ssh2"
+      "dependencies": {
+        "docker-modem": {
+          "dependencies": {
+            "ssh2": "https://registry.npmjs.org/@cweijan/ssh2/-/ssh2-2.0.1.tgz"
+          }
+        }
+      }
     }
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0"
   }
 }
