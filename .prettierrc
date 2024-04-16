@@ -4,23 +4,28 @@
   "useTabs": false,
   "printWidth": 120,
   "singleQuote": true,
+  "endOfLine": "auto",
   "trailingComma": "none",
-  "plugins": ["prettier-plugin-ini"],
+  "plugins": ["prettier-plugin-ini", "prettier-plugin-toml"],
   "overrides": [
+    {
+      "files": [".prototools"],
+      "options": {
+        "parser": "toml"
+      }
+    },
     {
       "files": [".npmrc"],
       "options": {
-        "iniSpaceAroundEquals": true,
         "parser": "ini",
-        "endOfLine": "auto"
+        "iniSpaceAroundEquals": true
       }
     },
     {
       "files": ["*.json", ".prettierrc"],
       "options": {
-        "tabWidth": 2,
         "parser": "jsonc",
-        "endOfLine": "auto"
+        "tabWidth": 2
       }
     },
     {
@@ -28,18 +33,15 @@
       "options": {
         "parser": "yaml",
         "tabWidth": 2,
-        "endOfLine": "auto",
-        "singleQuote": true,
         "bracketSpacing": false,
-        "bracketSameLine": true,
-        "semi": true
+        "bracketSameLine": true
       }
     },
     {
-      "files": ["*.md"],
+      "files": ["*.md", "*.markdown"],
       "options": {
-        "tabWidth": 1,
-        "endOfLine": "auto"
+        "parser": "markdown",
+        "tabWidth": 1
       }
     }
   ]

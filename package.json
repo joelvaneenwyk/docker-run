@@ -76,6 +76,7 @@
     "npe": "~1.2.0",
     "prettier": "~3.2.5",
     "prettier-plugin-ini": "^1.1.0",
+    "prettier-plugin-toml": "^2.0.1",
     "sinon": "~17.0.1",
     "ts-loader": "~9.5.1",
     "typescript": "~5.4.5",
