@@ -9,7 +9,7 @@
     "name": "Georgekutty Antony",
     "email": "mail@georgekuttyantony.com"
   },
-  "packageManager": "pnpm@9.0.0-rc.2+sha256.56c6fdb47aaccbd84f172f5dd032820ad8ba66aeb4727832fb3158f8537f11cd",
+  "packageManager": "pnpm@8.15.7",
   "publisher": "joelvaneenwyk",
   "engines": {
     "vscode": "^1.45.0"
