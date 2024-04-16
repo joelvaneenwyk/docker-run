@@ -9,24 +9,6 @@
   />
 </p>
 
-<p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=george3447.docker-run&ssr=false#overview"
-    ><img
-      src="https://vsmarketplacebadge.apphb.com/installs-short/george3447.docker-run.svg"
-      alt="Installs"
-  /></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=george3447.docker-run&ssr=false#review-details"
-    ><img
-      src="https://vsmarketplacebadge.apphb.com/rating-star/george3447.docker-run.svg"
-      alt="Rating"
-    /></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=george3447.docker-run&ssr=false#overview"
-    ><img
-      src="https://vsmarketplacebadge.apphb.com/version-short/george3447.docker-run.svg"
-      alt="Visual Studio Marketplace version"
-  /></a>
-</p>
-
 <h1 align="center">Docker Run</h1>
 
 <p align="center"> A VS Code Extension for automatically start docker containers required for the current workspace. </p>
