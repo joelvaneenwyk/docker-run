@@ -31,12 +31,18 @@ jobs:
       - run: npm install -g corepack
       - run: corepack enable
 
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
       - uses: actions/cache@v4
+        name: Setup pnpm cache
         with:
-          path: ${{ env.NODE_CACHE_PATH }}
-          key: ${{ runner.os }}-node-${{ hashFiles(env.NODE_HASH_FILES) }}
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles(env.NODE_HASH_FILES) }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-pnpm-store-
 
       - run: pnpm install
 
@@ -59,12 +65,18 @@ jobs:
       - run: npm install -g corepack
       - run: corepack enable
 
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
       - uses: actions/cache@v4
+        name: Setup pnpm cache
         with:
-          path: ${{ env.NODE_CACHE_PATH }}
-          key: ${{ runner.os }}-node-${{ hashFiles(env.NODE_HASH_FILES) }}
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles(env.NODE_HASH_FILES) }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-pnpm-store-
 
       - run: pnpm install
 
@@ -87,12 +99,18 @@ jobs:
       - run: npm install -g corepack
       - run: corepack enable
 
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
       - uses: actions/cache@v4
+        name: Setup pnpm cache
         with:
-          path: ${{ env.NODE_CACHE_PATH }}
-          key: ${{ runner.os }}-node-${{ hashFiles(env.NODE_HASH_FILES) }}
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles(env.NODE_HASH_FILES) }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-pnpm-store-
 
       - run: pnpm install
 
@@ -116,12 +134,18 @@ jobs:
       - run: npm install -g corepack
       - run: corepack enable
 
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
       - uses: actions/cache@v4
+        name: Setup pnpm cache
         with:
-          path: ${{ env.NODE_CACHE_PATH }}
-          key: ${{ runner.os }}-node-${{ hashFiles(env.NODE_HASH_FILES) }}
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles(env.NODE_HASH_FILES) }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-pnpm-store-
 
       - run: pnpm install
 
