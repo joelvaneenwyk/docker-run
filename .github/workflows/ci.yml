@@ -56,6 +56,9 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
+      - run: npm install -g corepack
+      - run: corepack enable
+
       - uses: actions/cache@v4
         with:
           path: ${{ env.NODE_CACHE_PATH }}
@@ -80,6 +83,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+
+      - run: npm install -g corepack
+      - run: corepack enable
 
       - uses: actions/cache@v4
         with:
@@ -106,6 +112,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+
+      - run: npm install -g corepack
+      - run: corepack enable
 
       - uses: actions/cache@v4
         with:
