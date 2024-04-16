@@ -1,16 +1,16 @@
 {
-  "name": "docker-run",
-  "displayName": "Docker Run",
+  "name": "mycoshiro-docker-run",
+  "displayName": "Docker Run [Dev Fork]",
   "description": "Start your docker containers automatically for each workspace",
   "version": "1.1.0",
-  "icon": "images/icon.png",
+  "icon": "docs/images/icon.png",
   "type": "commonjs",
   "author": {
     "name": "Georgekutty Antony",
     "email": "mail@georgekuttyantony.com"
   },
   "packageManager": "pnpm@9.0.1+sha256.46d50ee2afecb42b185ebbd662dc7bdd52ef5be56bf035bb615cab81a75345df",
-  "publisher": "joelvaneenwyk",
+  "publisher": "mycoshiro",
   "engines": {
     "vscode": "^1.45.0",
     "node": ">=18.0.0",
@@ -62,7 +62,7 @@
     "vscode:prepublish": "webpack --mode=production",
     "webpack": "webpack --mode=development",
     "webpack-dev": "webpack --mode=development --watch",
-    "format": "prettier . --write --ignore-path *.yaml"
+    "format": "prettier \"**\" --ignore-unknown --write --config .prettierrc --ignore-path .gitignore --ignore-path .vscodeignore"
   },
   "dependencies": {
     "@types/chai": "~4.3.14",
@@ -85,6 +85,7 @@
     "mocha": "~10.4.0",
     "npe": "~1.2.0",
     "prettier": "~3.2.5",
+    "prettier-plugin-ini": "^1.1.0",
     "sinon": "~17.0.1",
     "ts-loader": "~9.5.1",
     "typescript": "~5.4.5",
@@ -99,9 +100,6 @@
     "overrides": {
       "ssh2": "npm:@cweijan/ssh2"
     }
-  },
-  "resolutions": {
-    "ssh2": "npm:@cweijan/ssh2"
   },
   "contributes": {
     "configuration": {

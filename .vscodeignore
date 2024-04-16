@@ -1,8 +1,13 @@
-node_modules
+#
+# VSCode Ignore List
+#
+
+node_modules/
 .vscode/
 .vscode-test/
 out/
 src/
+
 tsconfig.json
 .eslintrc.json
 .gitignore
@@ -12,4 +17,8 @@ webpack.config.js
 .eslintignore
 .nvmrc
 .prettierignore
-**/*.map
+*.map
+
+pnpm-lock.yaml
+yarn.lock
+package-lock.json

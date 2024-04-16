@@ -9,7 +9,13 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true
   },
-  "cSpell.words": ["cweijan", "dockerrc", "Georgekutty", "xvfb"],
+  "cSpell.words": [
+    "cweijan",
+    "dockerrc",
+    "Georgekutty",
+    "mycoshiro",
+    "xvfb"
+  ],
   "DockerRun.DisableAutoGenerateConfig": true,
   "editor.codeActionsOnSave": {
     "editor.action.formatDocument": "explicit",

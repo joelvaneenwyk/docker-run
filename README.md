@@ -6,7 +6,7 @@
 <p align="center">
   <img
     width="160"
-    src="https://raw.githubusercontent.com/joelvaneenwyk/docker-run/develop/images/icon.png"
+    src="https://raw.githubusercontent.com/joelvaneenwyk/docker-run/develop/docs/images/icon.png"
     alt="Docker Run - Logo"
   />
 </p>
@@ -15,7 +15,7 @@
 
 <p align="center"> A VS Code Extension for automatically start docker containers required for the current workspace. </p>
 
-![How it works](/images/start-up.gif)
+![How it works](/docs/images/start-up.gif)
 
 ## Why
 
@@ -38,15 +38,15 @@ To install the extension, open the extensions view, search for `docker run` to f
 
 - Once installed we can configure the extension using the wizard that will show automatically every time you open a project.
 
-![Initial configuration](/images/first-time-configuration.gif)
+![Initial configuration](/docs/images/first-time-configuration.gif)
 
 - You can see the status of containers and configure the extension via the status bar.
 
-![Status bar](/images/status-bar.gif)
+![Status bar](/docs/images/status-bar.gif)
 
 - You can also use commands for configuring the extension
 
-![Commands](/images/commands.gif)
+![Commands](/docs/images/commands.gif)
 
 ## Changelog
 

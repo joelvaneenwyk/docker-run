@@ -9,4 +9,4 @@ bun.lockb
 yarn.lock
 .pnp.cjs
 .pnp.loader.mjs
-docker-run-*.tgz
+*docker-run-*.tgz
